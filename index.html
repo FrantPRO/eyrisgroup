@@ -52,6 +52,21 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+<!--	<script>-->
+<!--		function sendEmail() {-->
+<!--			Email.send({-->
+<!--				SecureToken: "64213b15-7a8c-4750-80ff-d1ff5979ea2d",-->
+<!--				// Host: "smtp.mailtrap.io",-->
+<!--				// Username: "<Mailtrap username>",-->
+<!--				// Password: "<Mailtrap password>",-->
+<!--				To: "stas.frantsuzov@mail.ru",-->
+<!--				From: "stas.frantsuzov@mail.ru",-->
+<!--				Subject: "Test email",-->
+<!--				Body: "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"-->
+<!--			}).then(message => alert(message));-->
+<!--		}-->
+<!--	</script>-->
+
 	</head>
 	<body>
 
@@ -433,9 +448,17 @@
 								<input id="phone" class="form-control" placeholder="Телефон" type="text">
 							</div>
 							<div class="form-group ">
-								<input class="btn btn-primary" value="Отправить заявку" type="button" onclick="sendEmail()">
+								<input class="btn btn-primary" value="Отправить заявку" type="button"
+									   onclick="sendEmail()">
 							</div>
 						</form>
+					</div>
+					<div class="col-md-6 to-animate-2 rounded"
+						 style="background-image: url(images/team.png);
+						 		background-size:cover;
+						 		background-position: center center;
+						 		min-height: 250px;">
+						&nbsp;
 					</div>
 				</div>
 			</div>
@@ -486,15 +509,6 @@
 		$(function () {
 			$('#date').datetimepicker();
 		});
-		// Email.send({
-		// 	Host: "smtp.mailtrap.io",
-		// 	Username: "<Mailtrap username>",
-		// 	Password: "<Mailtrap password>",
-		// 	To: 'stas.frantsuzov@mail.ru',
-		// 	From: "sender@example.com",
-		// 	Subject: "Test email",
-		// 	Body: "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
-		// }).then(message => alert(message));
 	</script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>

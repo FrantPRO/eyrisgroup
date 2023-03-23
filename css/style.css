@@ -397,7 +397,7 @@ p {
 #frpro-about .frpro-2col {
   width: 50%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #frpro-about .frpro-2col {
     width: 100%;
   }
@@ -456,7 +456,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #frpro-about .frpro-bg {
     width: 100%;
     min-height: 500px;
